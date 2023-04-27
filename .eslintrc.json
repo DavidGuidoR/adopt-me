@@ -5,7 +5,7 @@
     ],
     "plugins":[],
     "parserOptions":{
-        "ecmaVersion":2022,
+        "Version":2022,
         "sourceType":"module",
         "ecmaFeatures":{
         "jsx":true
