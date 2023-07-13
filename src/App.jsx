@@ -20,7 +20,7 @@ const App = () => {
     return (
     <BrowserRouter>
     <QueryClientProvider client={queryClient}>
-        <AdoptedPetContext.Provider client={queryClient}>
+        <AdoptedPetContext.Provider value={adoptedPet}>
         <header>
             <Link to="/">Adopt Me!</Link>
         </header>
